@@ -67,6 +67,7 @@
 }
 
 .header__theme-menu-button_active {
+  border: 1px solid var(--decorColor);
   pointer-events: none;
 }
 
@@ -410,8 +411,7 @@
   }
 
   .header__theme-menu {
-    margin-top: 4px;
-    margin-left: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -425,6 +425,11 @@
 
   .header-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: 157px;
+    font-weight: 700;
+    line-height: 96px;
+    color: var(--title-Color);
+    text-shadow: 4px 4px 0 var(--title-shadow-Color);
   }
 
   .header__theme-menu-button_active {
@@ -433,14 +438,6 @@
 
   .header__theme-menu-button:hover {
     border: 1px solid var(--hoverColor);
-  }
-
-  .header-title {
-    font-size: 157px;
-    font-weight: 700;
-    line-height: 96px;
-    color: var(--title-Color);
-    text-shadow: 4px 4px 0 var(--title-shadow-Color);
   }
 
   .header-paragraph {
