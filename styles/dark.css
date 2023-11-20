@@ -18,6 +18,6 @@
   --main-title-Color: #FF0070;
   --mainColor: #F1B2CE;
   --main-link-shadow: #FF0070;
-  --bg-image-path: url(../images/cover-image-dark.png);
+  --bg-image-path: url(../images/cover-image-dark.png), lightgray no-repeat;
   --hoverColor: rgba(255, 0, 112, 0.40);
 }

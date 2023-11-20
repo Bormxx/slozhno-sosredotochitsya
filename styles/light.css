@@ -18,7 +18,7 @@
   --main-title-Color: #353430;
   --mainColor: #353430;
   --main-link-shadow: #FF8DCB;
-  --bg-image-path: url(../images/cover-image-light.png);
+  --bg-image-path: url(../images/cover-image-light.png) no-repeat;
   --hoverColor: rgba(50, 49, 45, 0.40);
 }
 
@@ -35,7 +35,7 @@
     --main-title-Color: #353430;
     --mainColor: #353430;
     --main-link-shadow: #FF8DCB;
-    --bg-image-path: url(../images/cover-image-light.png);
+    --bg-image-path: url(../images/cover-image-light.png) no-repeat;
     --hoverColor: rgba(50, 49, 45, 0.40);
   }
 
