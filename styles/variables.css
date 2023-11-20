@@ -2,3 +2,21 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --decorColor: #FF0070;
+  --title-Color: #DB00FF;
+  --title-shadow-Color: #FF0070;
+  --accent-bg-Color: #FF0070;
+  --accentColor: #000028;
+  --main-bg-color: #000028;
+  --main-title-Color: #FF0070;
+  --mainColor: #F1B2CE;
+  --main-link-shadow: #FF0070;
+  --bg-image-path: url(../images/cover-image-dark.png);
+  --hoverColor: rgba(255, 0, 112, 0.40);
+}
+
+.page {
+  
+}

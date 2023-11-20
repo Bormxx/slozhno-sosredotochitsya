@@ -9,4 +9,19 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --decorColor: #353430;
+  --title-Color: #FFC2E6;
+  --title-shadow-Color: #FF8DCB;
+  --accent-bg-Color: #FF8DCB;
+  --accentColor: #353430;
+  --main-bg-color: #FFF1F7;
+  --main-title-Color: #353430;
+  --mainColor: #353430;
+  --main-link-shadow: #FF8DCB;
+  --bg-image-path: url(../images/cover-image-light.png);
+  --hoverColor: rgba(50, 49, 45, 0.40);
+}
+
+.theme_light .header-decor-text {
+  display: none;
 }
